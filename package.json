@@ -1,16 +1,13 @@
 {
-  "name": "atelier-tour-de-liaison",
+  "name": "edm-server",
   "version": "1.0.0",
-  "description": "Serveur PvP / Echanges / Raid coop pour L'Atelier des Conjugaisons",
+  "description": "Serveur PvP + leaderboard pour le jeu EDM",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {
-    "express": "^4.19.2",
-    "ws": "^8.18.0"
+    "jsdom": "^29.1.1",
+    "ws": "^8.21.0"
   }
 }
